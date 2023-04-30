@@ -79,6 +79,8 @@ target/
 /data/raw/*/*.gpkg
 /data/raw/*/*.tif
 
+/notebooks/mlruns
+/notebooks/cache
 # Mac OS-specific storage files
 .DS_Store
 

@@ -1,0 +1,424 @@
+City_Name,Neighborhood_Name,Neighborhood_FID,City_Code
+Berlin,Schmöckwitz,70.0,11000000
+Berlin,Lichtenrade,50.0,11000000
+Berlin,Wannsee,44.0,11000000
+Berlin,Grünau,68.0,11000000
+Berlin,Marienfelde,49.0,11000000
+Berlin,Müggelheim,69.0,11000000
+Berlin,Bohnsdorf,63.0,11000000
+Berlin,Lichterfelde,39.0,11000000
+Berlin,Rudow,54.0,11000000
+Berlin,Altglienicke,61.0,11000000
+Berlin,Zehlendorf,41.0,11000000
+Berlin,Nikolassee,43.0,11000000
+Berlin,Köpenick,65.0,11000000
+Berlin,Buckow,53.0,11000000
+Berlin,Lankwitz,40.0,11000000
+Berlin,Mariendorf,48.0,11000000
+Berlin,Gropiusstadt,55.0,11000000
+Berlin,Britz,52.0,11000000
+Berlin,Rahnsdorf,67.0,11000000
+Berlin,Adlershof,62.0,11000000
+Berlin,Johannisthal,59.0,11000000
+Berlin,Kladow,34.0,11000000
+Berlin,Dahlem,42.0,11000000
+Berlin,Steglitz,38.0,11000000
+Berlin,Baumschulenweg,58.0,11000000
+Berlin,Tempelhof,47.0,11000000
+Berlin,Niederschöneweide,60.0,11000000
+Berlin,Friedrichshagen,66.0,11000000
+Berlin,Schöneberg,45.0,11000000
+Berlin,Oberschöneweide,64.0,11000000
+Berlin,Gatow,33.0,11000000
+Berlin,Neukölln,51.0,11000000
+Berlin,Grunewald,25.0,11000000
+Berlin,Friedenau,46.0,11000000
+Berlin,Schmargendorf,24.0,11000000
+Berlin,Wilmersdorf,23.0,11000000
+Berlin,Karlshorst,77.0,11000000
+Berlin,Plänterwald,57.0,11000000
+Berlin,Mahlsdorf,74.0,11000000
+Berlin,Biesdorf,72.0,11000000
+Berlin,Kaulsdorf,73.0,11000000
+Berlin,Kreuzberg,8.0,11000000
+Berlin,Alt-Treptow,56.0,11000000
+Berlin,Westend,26.0,11000000
+Berlin,Halensee,28.0,11000000
+Berlin,Rummelsburg,85.0,11000000
+Berlin,Friedrichshain,7.0,11000000
+Berlin,Wilhelmstadt,37.0,11000000
+Berlin,Friedrichsfelde,76.0,11000000
+Berlin,Charlottenburg,22.0,11000000
+Berlin,Tiergarten,4.0,11000000
+Berlin,Mitte,1.0,11000000
+Berlin,Staaken,32.0,11000000
+Berlin,Lichtenberg,78.0,11000000
+Berlin,Spandau,29.0,11000000
+Berlin,Hansaviertel,3.0,11000000
+Berlin,Marzahn,71.0,11000000
+Berlin,Moabit,2.0,11000000
+Berlin,Hellersdorf,75.0,11000000
+Berlin,Prenzlauer Berg,9.0,11000000
+Berlin,Siemensstadt,31.0,11000000
+Berlin,Fennpfuhl,84.0,11000000
+Berlin,Charlottenburg-Nord,27.0,11000000
+Berlin,Haselhorst,30.0,11000000
+Berlin,Falkenhagener Feld,36.0,11000000
+Berlin,Gesundbrunnen,6.0,11000000
+Berlin,Wedding,5.0,11000000
+Berlin,Alt-Hohenschönhausen,83.0,11000000
+Berlin,Hakenfelde,35.0,11000000
+Berlin,Weißensee,10.0,11000000
+Berlin,Tegel,87.0,11000000
+Berlin,Pankow,15.0,11000000
+Berlin,Reinickendorf,86.0,11000000
+Berlin,Heinersdorf,12.0,11000000
+Berlin,Neu-Hohenschönhausen,82.0,11000000
+Berlin,Konradshöhe,88.0,11000000
+Berlin,Stadtrandsiedlung Malchow,14.0,11000000
+Berlin,Niederschönhausen,19.0,11000000
+Berlin,Falkenberg,79.0,11000000
+Berlin,Malchow,80.0,11000000
+Berlin,Wartenberg,81.0,11000000
+Berlin,Borsigwalde,96.0,11000000
+Berlin,Wittenau,94.0,11000000
+Berlin,Blankenburg,11.0,11000000
+Berlin,Wilhelmsruh,21.0,11000000
+Berlin,Französisch Buchholz,18.0,11000000
+Berlin,Rosenthal,20.0,11000000
+Berlin,Heiligensee,89.0,11000000
+Berlin,Märkisches Viertel,95.0,11000000
+Berlin,Waidmannslust,92.0,11000000
+Berlin,Hermsdorf,91.0,11000000
+Berlin,Blankenfelde,16.0,11000000
+Berlin,Karow,13.0,11000000
+Berlin,Lübars,93.0,11000000
+Berlin,Frohnau,90.0,11000000
+Berlin,Buch,17.0,11000000
+Bremen,Arbergen,54.0,04011000
+Bremen,Hemelingen,53.0,04011000
+Bremen,Mahndorf,55.0,04011000
+Bremen,Arsten,16.0,04011000
+Bremen,Kattenesch,18.0,04011000
+Bremen,Kattenturm,17.0,04011000
+Bremen,Huckelriede,14.0,04011000
+Bremen,Habenhausen,15.0,04011000
+Bremen,Kirchhuchting,21.0,04011000
+Bremen,Neuenland,13.0,04011000
+Bremen,Sodenmatt,20.0,04011000
+Bremen,Osterholz,49.0,04011000
+Bremen,Grolland,22.0,04011000
+Bremen,Sebaldsbrück,51.0,04011000
+Bremen,Mittelshuchting,19.0,04011000
+Bremen,Gartenstadt Süd,11.0,04011000
+Bremen,Tenever,48.0,04011000
+Bremen,Hastedt,52.0,04011000
+Bremen,Ellenerbrok-Schevemoor,47.0,04011000
+Bremen,Ellener Feld,46.0,04011000
+Bremen,Peterswerder,29.0,04011000
+Bremen,Buntentor,12.0,04011000
+Bremen,Südervorstadt,10.0,04011000
+Bremen,Alte Neustadt,7.0,04011000
+Bremen,Neustadt,9.0,04011000
+Bremen,Gartenstadt Vahr,38.0,04011000
+Bremen,Woltmershausen,23.0,04011000
+Bremen,Hohentor,8.0,04011000
+Bremen,Ostertor,3.0,04011000
+Bremen,Steintor,27.0,04011000
+Bremen,Blockdiek,50.0,04011000
+Bremen,Altstadt,1.0,04011000
+Bremen,Hulsberg,30.0,04011000
+Bremen,Strom,26.0,04011000
+Bremen,Oberneuland,88.0,04011000
+Bremen,Fesenfeld,28.0,04011000
+Bremen,Gete,37.0,04011000
+Bremen,Neue Vahr Südwest,40.0,04011000
+Bremen,Neue Vahr Südost,41.0,04011000
+Bremen,Hohentorshafen,6.0,04011000
+Bremen,Neustädter Hafen,5.0,04011000
+Bremen,Bahnhofsvorstadt,2.0,04011000
+Bremen,Barkhof,33.0,04011000
+Bremen,Überseestadt,67.0,04011000
+Bremen,Rablinghausen,24.0,04011000
+Bremen,Schwachhausen,36.0,04011000
+Bremen,Radio Bremen,35.0,04011000
+Bremen,Neue Vahr Nord,39.0,04011000
+Bremen,Findorff-Bürgerweide,58.0,04011000
+Bremen,Bürgerpark,32.0,04011000
+Bremen,Utbremen,61.0,04011000
+Bremen,Riensberg,34.0,04011000
+Bremen,Horn,42.0,04011000
+Bremen,Neu-Schwachhausen,31.0,04011000
+Bremen,Steffensweg,62.0,04011000
+Bremen,Westend,63.0,04011000
+Bremen,Weidedamm,59.0,04011000
+Bremen,Regensburger Str.,57.0,04011000
+Bremen,Seehausen,25.0,04011000
+Bremen,Lehesterdeich,44.0,04011000
+Bremen,Osterfeuerberg,65.0,04011000
+Bremen,Lehe,43.0,04011000
+Bremen,Walle,64.0,04011000
+Bremen,In den Hufen,60.0,04011000
+Bremen,Hohweg,66.0,04011000
+Bremen,Borgfeld,45.0,04011000
+Bremen,Industriehäfen,4.0,04011000
+Bremen,Lindenhof,68.0,04011000
+Bremen,Gröpelingen,69.0,04011000
+Bremen,Blockland,56.0,04011000
+Bremen,Ohlenhof,70.0,04011000
+,,,04011000
+Bremen,Oslebshausen,72.0,04011000
+Bremen,Werderland,74.0,04011000
+Bremen,Burg-Grambke,73.0,04011000
+Bremen,Burgdamm,75.0,04011000
+Bremen,St.Magnus,77.0,04011000
+Bremen,Lesum,76.0,04011000
+Bremen,Grohn,79.0,04011000
+Bremen,Vegesack,78.0,04011000
+Bremen,Fähr-Lobbendorf,82.0,04011000
+Bremen,Schönebeck,80.0,04011000
+Bremen,Blumenthal,83.0,04011000
+Bremen,Aumund-Hammersbeck,81.0,04011000
+Bremen,Rönnebeck,84.0,04011000
+Bremen,Farge,86.0,04011000
+Bremen,Lüssum-Bockhorn,85.0,04011000
+Bremen,Rekum,87.0,04011000
+,,,14612000
+Dresden,Pillnitz,43.0,14612000
+Dresden,Gittersee,130.0,14612000
+Dresden,Leuben,13.0,14612000
+Dresden,Kleinzschachwitz,74.0,14612000
+Dresden,Mockritz,92.0,14612000
+Dresden,Dobritz,33.0,14612000
+Dresden,Dölzschen,95.0,14612000
+Dresden,Hosterwitz,66.0,14612000
+Dresden,Borsberg,7.0,14612000
+Dresden,Strehlen,51.0,14612000
+Dresden,Plauen,101.0,14612000
+Dresden,Seidnitz,73.0,14612000
+Dresden,Laubegast,98.0,14612000
+Dresden,Zaschendorf,72.0,14612000
+Dresden,Räcknitz,159.0,14612000
+Dresden,Zschertnitz/Strehlen-Südwest,70.0,14612000
+Dresden,Krieschendorf/Malschendorf,83.0,14612000
+Dresden,Roßthal/Neunimptsch,56.0,14612000
+Dresden,Eschdorf,128.0,14612000
+Dresden,Reitzendorf,37.0,14612000
+Dresden,Südvorstadt-West,94.0,14612000
+Dresden,Helfenberg/Eichbusch/Rockau,155.0,14612000
+Dresden,Naußlitz,132.0,14612000
+Dresden,Südvorstadt-Ost,41.0,14612000
+Dresden,Niederpoyritz,27.0,14612000
+Dresden,Altfranken,138.0,14612000
+Dresden,Löbtau-Süd,156.0,14612000
+Dresden,Tolkewitz,40.0,14612000
+Dresden,Pennrich,12.0,14612000
+Dresden,Seevorstadt-Ost/Großer Garten/Strehlen-Nordwest,57.0,14612000
+Dresden,Zöllmen,153.0,14612000
+Dresden,Gruna/Strehlen-Nordost,113.0,14612000
+Dresden,Schönfeld,142.0,14612000
+Dresden,Pappritz,88.0,14612000
+Dresden,Gompitz,44.0,14612000
+Dresden,Striesen-Ost,129.0,14612000
+Dresden,Gorbitz-Süd,53.0,14612000
+Dresden,Wölfnitz,131.0,14612000
+Dresden,Wachwitz,149.0,14612000
+Dresden,Schullwitz,107.0,14612000
+Dresden,Steinbach,77.0,14612000
+Dresden,Striesen-Süd/Johannstadt-Südost,97.0,14612000
+Dresden,Löbtau-Nord,117.0,14612000
+Dresden,Wilsdruffer Vorstadt,68.0,14612000
+Dresden,Neugruna,133.0,14612000
+Dresden,Seevorstadt-West,4.0,14612000
+Dresden,Gorbitz-Ost,38.0,14612000
+Dresden,Gorbitz-Nord/Neu-Omsewitz,135.0,14612000
+Dresden,Cunnersdorf,26.0,14612000
+Dresden,Johannstadt-Süd,103.0,14612000
+Dresden,Pirnaische Vorstadt,126.0,14612000
+Dresden,Loschwitz,115.0,14612000
+Dresden,Gönnsdorf,109.0,14612000
+Dresden,Unkersdorf,108.0,14612000
+Dresden,Roitzsch,11.0,14612000
+Dresden,Ockerwitz,42.0,14612000
+Dresden,Friedrichstadt,150.0,14612000
+Dresden,Striesen-West,76.0,14612000
+Dresden,Merbitz/Podemus,69.0,14612000
+Dresden,Omsewitz,8.0,14612000
+Dresden,Cotta,157.0,14612000
+Dresden,Innere Altstadt,47.0,14612000
+Dresden,Blasewitz,93.0,14612000
+Dresden,Rochwitz,24.0,14612000
+Dresden,Leutewitz,10.0,14612000
+Dresden,Bühlau,158.0,14612000
+Dresden,Johannstadt-Nord,139.0,14612000
+Dresden,Weißig,79.0,14612000
+Dresden,Innere Neustadt,118.0,14612000
+Dresden,Alt-Leuteritz/Brabschütz,28.0,14612000
+Dresden,Briesnitz,60.0,14612000
+Dresden,Rossendorf,2.0,14612000
+Dresden,Mobschatz,1.0,14612000
+Dresden,Leipziger Vorstadt,120.0,14612000
+Dresden,Kaditz,102.0,14612000
+Dresden,Übigau,15.0,14612000
+Dresden,Radeberger Vorstadt,20.0,14612000
+Dresden,Oberwartha,96.0,14612000
+Dresden,Kemnitz,114.0,14612000
+Dresden,Äußere Neustadt,67.0,14612000
+Dresden,Weißer Hirsch,152.0,14612000
+Dresden,Dresdner Heide,39.0,14612000
+Dresden,Stadt Neudorf,18.0,14612000
+Dresden,Mickten,112.0,14612000
+Dresden,Cossebaude/Neu-Leuteritz,34.0,14612000
+Dresden,Pieschen-Süd,63.0,14612000
+Dresden,Albertstadt,71.0,14612000
+Dresden,Stetzsch,59.0,14612000
+Dresden,Gohlis,65.0,14612000
+Dresden,Pieschen-Nord/Leipziger Vorstadt-Nordwest,121.0,14612000
+Dresden,Niederwartha,87.0,14612000
+Dresden,Trachau,6.0,14612000
+Dresden,Trachenberge,75.0,14612000
+Dresden,Hellerberge,52.0,14612000
+Dresden,Klotzsche,46.0,14612000
+Dresden,Wilschdorf,25.0,14612000
+Dresden,Hellerau,141.0,14612000
+Dresden,Rähnitz,50.0,14612000
+Dresden,Flughafen,143.0,14612000
+Dresden,Langebrück,127.0,14612000
+Dresden,Heidehof,32.0,14612000
+Dresden,Lausa/Friedersdorf,162.0,14612000
+Dresden,Weixdorf,134.0,14612000
+Dresden,Schönborn,144.0,14612000
+Dresden,Marsdorf,124.0,14612000
+Dresden,Gomlitz,64.0,14612000
+Frankfurt am Main,Flughafen,15.0,06412000
+Frankfurt am Main,Sachsenhausen-S.,14.0,06412000
+Frankfurt am Main,Sindlingen,37.0,06412000
+Frankfurt am Main,Schwanheim,18.0,06412000
+Frankfurt am Main,Niederrad,17.0,06412000
+Frankfurt am Main,Höchst,35.0,06412000
+Frankfurt am Main,Zeilsheim,38.0,06412000
+Frankfurt am Main,Gutleutviertel,10.0,06412000
+Frankfurt am Main,Sachsenhausen-N.,13.0,06412000
+Frankfurt am Main,Oberrad,16.0,06412000
+Frankfurt am Main,Griesheim,19.0,06412000
+Frankfurt am Main,Nied,36.0,06412000
+Frankfurt am Main,Gallus,11.0,06412000
+Frankfurt am Main,Unterliederbach,39.0,06412000
+Frankfurt am Main,Bahnhofsviertel,3.0,06412000
+Frankfurt am Main,Bockenheim,12.0,06412000
+Frankfurt am Main,Innenstadt,2.0,06412000
+Frankfurt am Main,Altstadt,1.0,06412000
+Frankfurt am Main,Ostend,8.0,06412000
+Frankfurt am Main,Fechenheim,34.0,06412000
+Frankfurt am Main,Sossenheim,40.0,06412000
+Frankfurt am Main,Westend-Süd,4.0,06412000
+Frankfurt am Main,Rödelheim,20.0,06412000
+Frankfurt am Main,Nordend-Ost,7.0,06412000
+Frankfurt am Main,Nordend-West,6.0,06412000
+Frankfurt am Main,Riederwald,32.0,06412000
+Frankfurt am Main,Westend-Nord,5.0,06412000
+Frankfurt am Main,Bornheim,9.0,06412000
+Frankfurt am Main,Seckbach,33.0,06412000
+Frankfurt am Main,Hausen,21.0,06412000
+Frankfurt am Main,Praunheim,22.0,06412000
+Frankfurt am Main,Bergen-Enkheim,45.0,06412000
+Frankfurt am Main,Ginnheim,25.0,06412000
+Frankfurt am Main,Dornbusch,26.0,06412000
+Frankfurt am Main,Eckenheim,28.0,06412000
+Frankfurt am Main,Preungesheim,29.0,06412000
+Frankfurt am Main,Eschersheim,27.0,06412000
+Frankfurt am Main,Heddernheim,23.0,06412000
+Frankfurt am Main,Niederursel,24.0,06412000
+Frankfurt am Main,Berkersheim,31.0,06412000
+Frankfurt am Main,Frankfurter Berg,46.0,06412000
+Frankfurt am Main,Harheim,43.0,06412000
+Frankfurt am Main,Kalbach-Riedberg,42.0,06412000
+Frankfurt am Main,Bonames,30.0,06412000
+Frankfurt am Main,Nieder-Eschbach,44.0,06412000
+Frankfurt am Main,Nieder-Erlenbach,41.0,06412000
+Köln,Junkersdorf,2.0,05315000
+Köln,Weiden,59.0,05315000
+Köln,Müngersdorf,23.0,05315000
+Köln,Lövenich,41.0,05315000
+Köln,Widdersdorf,3.0,05315000
+Köln,Libur,84.0,05315000
+Köln,Immendorf,54.0,05315000
+Köln,Lind,60.0,05315000
+Köln,Langel,44.0,05315000
+Köln,Meschenich,56.0,05315000
+Köln,Godorf,50.0,05315000
+Köln,Wahn,66.0,05315000
+Köln,Grengel,9.0,05315000
+Köln,Zündorf,77.0,05315000
+Köln,Wahnheide,79.0,05315000
+Köln,Sürth,53.0,05315000
+Köln,Elsdorf,51.0,05315000
+Köln,Rondorf,58.0,05315000
+Köln,Hahnwald,63.0,05315000
+Köln,Weiß,42.0,05315000
+Köln,Porz,1.0,05315000
+Köln,Rodenkirchen,69.0,05315000
+Köln,Urbach,73.0,05315000
+Köln,Eil,8.0,05315000
+Köln,Raderthal,65.0,05315000
+Köln,Marienburg,80.0,05315000
+Köln,Zollstock,52.0,05315000
+Köln,Ensen,62.0,05315000
+Köln,Finkenberg,61.0,05315000
+Köln,Gremberghoven,76.0,05315000
+Köln,Westhoven,70.0,05315000
+Köln,Klettenberg,68.0,05315000
+Köln,Poll,85.0,05315000
+Köln,Sülz,36.0,05315000
+Köln,Raderberg,6.0,05315000
+Köln,Bayenthal,7.0,05315000
+Köln,Rath/Heumar,21.0,05315000
+Köln,Lindenthal,37.0,05315000
+Köln,Humboldt/Gremberg,86.0,05315000
+Köln,Neustadt/Süd,22.0,05315000
+Köln,Ostheim,17.0,05315000
+Köln,Deutz,49.0,05315000
+Köln,Altstadt/Süd,30.0,05315000
+Köln,Vingst,20.0,05315000
+Köln,Neubrück,46.0,05315000
+Köln,Brück,25.0,05315000
+Köln,Kalk,75.0,05315000
+Köln,Merheim,16.0,05315000
+Köln,Braunsfeld,33.0,05315000
+Köln,Altstadt/Nord,24.0,05315000
+Köln,Höhenberg,45.0,05315000
+Köln,Neustadt/Nord,31.0,05315000
+Köln,Ehrenfeld,38.0,05315000
+Köln,Mülheim,39.0,05315000
+Köln,Buchforst,72.0,05315000
+Köln,Buchheim,43.0,05315000
+Köln,Vogelsang,12.0,05315000
+Köln,Neuehrenfeld,34.0,05315000
+Köln,Holweide,14.0,05315000
+Köln,Bickendorf,55.0,05315000
+Köln,Dellbrück,29.0,05315000
+Köln,Nippes,13.0,05315000
+Köln,Riehl,40.0,05315000
+Köln,Bilderstöckchen,15.0,05315000
+Köln,Bocklemünd/Mengenich,19.0,05315000
+Köln,Ossendorf,11.0,05315000
+Köln,Niehl,26.0,05315000
+Köln,Mauenheim,10.0,05315000
+Köln,Esch/Auweiler,35.0,05315000
+Köln,Roggendorf/Thenhoven,27.0,05315000
+Köln,Volkhoven/Weiler,47.0,05315000
+Köln,Worringen,81.0,05315000
+Köln,Höhenhaus,5.0,05315000
+Köln,Weidenpesch,74.0,05315000
+Köln,Stammheim,4.0,05315000
+Köln,Longerich,57.0,05315000
+Köln,Dünnwald,18.0,05315000
+Köln,Pesch,71.0,05315000
+Köln,Flittard,28.0,05315000
+Köln,Lindweiler,32.0,05315000
+Köln,Heimersdorf,78.0,05315000
+Köln,Seeberg,64.0,05315000
+Köln,Merkenich,67.0,05315000
+Köln,Fühlingen,82.0,05315000
+Köln,Chorweiler,48.0,05315000
+Köln,Blumenberg,83.0,05315000
