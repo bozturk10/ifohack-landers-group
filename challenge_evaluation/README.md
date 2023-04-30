@@ -27,3 +27,9 @@ The first file also includes additional seggregation measures for...
 The second intended to compute the walking distance from a centroid of a neighborhood to any possible stop of public transportation as a form of connectedness. 
 
 ## Model 
+
+We have tried out ElasticNet and LightGBM and we submit our lightgbm model for the evaluation.
+no crossval is performed but LightGBM uses an interval validation split to make decide on early stopping. 
+For a random split we achievedc R2 0.8 . 
+
+

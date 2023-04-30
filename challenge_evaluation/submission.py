@@ -1,18 +1,48 @@
+import sys
+sys.path.append("../..") # Adds higher directory to python modules path.
+print(sys.path)
 import pandas as pd
-from src.models.boosting import get_lgb_datasets, run_lgb_model
-from src.models.metrics import calculate_model_metrics
+import lightgbm as lgb
+import time, logging
+import numpy as np
 from sklearn.model_selection import train_test_split
 
-import lightgbm
+evals_result = {}  # to record eval results for plotting
 
 df= pd.read_csv('../data/interim/nb_level_merged_all_cities_with_amenties.csv')
 df = df.fillna(0)
 # Prepare data for regression
-X = df.drop(columns=["Neighborhood_Name"	,"City_Name","Land_Value"])
+X = df.drop(columns=["Neighborhood_Name","City_Name","Land_Value"])
 y = df.Land_Value
+X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)
+
+callbacks=[lgb.log_evaluation(10),
+           lgb.record_evaluation(evals_result),
+           lgb.early_stopping(stopping_rounds=25),
+        ]
+
+def get_lgb_datasets(X_train,y_train,X_val,y_val):
+    lgb_train = lgb.Dataset(X_train, y_train)
+    lgb_val = lgb.Dataset(X_val, y_val, reference=lgb_train)
+    return lgb_train,lgb_val
+
+
+def run_lgb_model(params,lgb_train,lgb_val,callbacks=[]):
+    start = time.time()
+    gbm = lgb.train(params,
+                    lgb_train,
+                    valid_sets=[lgb_train, lgb_val],
+                    callbacks=callbacks)
+    end = time.time()
+    runtime= end-start 
+    
+    return gbm, evals_result, runtime
+
+
+
 
 def model_fit(X_train, y_train):
-    callbacks=[lightgbm.log_evaluation(10)]
+    callbacks=[lgb.log_evaluation(10)]
     params= {
         'num_boost_round':200,
         'device_type' : 'cpu',
@@ -32,6 +62,6 @@ def model_fit(X_train, y_train):
     return regr
 
 
-def model_predict(regr, X_test)
+def model_predict(regr, X_test):
 	y_pred = regr.predict(X_test)
 	return y_pred
