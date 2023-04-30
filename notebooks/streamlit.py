@@ -15,33 +15,14 @@ from bokeh.models import ColumnDataSource,HoverTool, Select
 from bokeh.transform import transform
 from bokeh.layouts import column
 from bokeh.models import CustomJS, Select
-from bokeh.tile_providers import get_provider, Vendors
-
-tile_provider = get_provider(Vendors.OSM)
-
-st.title("Land Prices")
-
-st.subheader("Running a streamlit app")
-
-st.markdown("""
-With an entrypoint file called `app.py`
-- `streamlit run app.py`
-""")
-
-x = [1, 2, 3, 4, 5]
-y = [6, 7, 2, 4, 5]
-
-p = figure(
-    title='simple line example',
-    x_axis_label='x',
-    y_axis_label='y')
-
-p.line(x, y, legend_label='Trend', line_width=2)
-
-st.bokeh_chart(p, use_container_width=True)
+from bokeh.models import ColorBar
 
 
+#tile_provider = get_provider(Vendors.OSM)
 
+st.title("_:blue[Land Prices]_ :moneybag: :cityscape:")
+
+st.subheader("The app you need! :sunglasses:")
 
 
 # No need to change the functions from the quick start
@@ -78,6 +59,8 @@ ranges = {}
 # THIS NEEDS TO BE 3857 and not what was in the example notebook (3395). Otherwise Frankfurt is in Darmstadt :/
 mercator_crs = CRS.from_user_input(3857)
 
+merged_cities = pd.read_csv(f"../data/interim/nb_level_merged_all_cities_with_amenties.csv")
+
 for city in cities:
 
     neighborhoods_in_city = gpd.read_file(f"../data/raw/3 Neighborhoods/Neighborhoods_{city}.gpkg")
@@ -86,7 +69,12 @@ for city in cities:
 
     neighborhoods_in_city = pd.merge(neighborhoods_in_city, land_prices, on='Neighborhood_FID', how='left')
 
+    all_city_data = merged_cities.query("City_Name == @city")
+
+    neighborhoods_in_city = pd.merge(neighborhoods_in_city, all_city_data, on='Neighborhood_Name', how='left', suffixes=("", "_"))    
+
     neighborhoods_in_city["Land_Value"] = neighborhoods_in_city["Land_Value"].round(0)
+
 
     neighborhood = pd.concat([neighborhood, neighborhoods_in_city])
 
@@ -100,20 +88,28 @@ neighborhood_b = transform_gdf(neighborhood_mercator)
 
 x_range = ranges[cities[0]]["x"]
 y_range = ranges[cities[0]]["y"]
+mapper = LogColorMapper(palette = palette)
 
 
 p = figure(title = f"Neighborhoods in {cities[0]}", x_range=x_range, y_range=y_range,
            x_axis_type="mercator", y_axis_type="mercator", match_aspect=False)
      
 p.patches('x', 'y', source = ColumnDataSource(neighborhood_b), line_color = "grey", line_width = 0.8,
-          fill_color= transform('Land_Value', LogColorMapper(palette = palette)),
+          fill_color= transform('Land_Value',mapper),
           fill_alpha = 0.7)
 
+cb = ColorBar (color_mapper = mapper, location = (5,6))
+p.add_layout(cb, 'right')
 #p.add_tile(tile_provider)
 
 TOOLTIPS = [
-    ("Land Value", "@Land_Value"),
-    ("Area count", "@Area_Count")
+    ("Neighborhood", "@Neighborhood_Name"),
+    ("Land Value", "@Land_Value €/m2"),
+    ("Area count", "@Area_Count"),
+    ("Living area below 30 sqm", "@w_less_30"),
+    ("Restaurants", "@restaurant"),
+    ("Fountains", "@fountain")
+    
 ]
 
 p.add_tools(HoverTool(tooltips=TOOLTIPS))
@@ -138,4 +134,39 @@ select.js_on_change("value", callback)
 layout = column(select , p)
 show(layout)
 
-st.bokeh_chart(p, use_container_width=True)
+st.markdown("**Land prices in ...**")
+st.bokeh_chart(layout, use_container_width=True)
+
+
+st.markdown("**What should you care to sell your property for higher prices?**")
+
+
+
+from bokeh.plotting import figure
+from bokeh.models import ColumnDataSource
+from bokeh.palettes import Spectral10
+from bokeh.transform import factor_cmap
+from bokeh.io import show
+import streamlit as st
+
+features = ['Living space less than 30 sqm', 'Restaurants', 'Fountains', 'Benchs', 'Unusual apartment type', 'Holding German and other pass', 'Greek', 'EU27 pass', 'Waste bin', 'Cafe']
+counts = [178, 124, 102, 81, 76, 76, 75, 74, 70, 68]
+
+source = ColumnDataSource(data=dict(features=features, counts=counts, color=Spectral10))
+
+# sorting the bars means sorting the range factors
+sorted_features = sorted(features, key=lambda x: counts[features.index(x)], reverse=False)
+
+
+feature_chart = figure(y_range=sorted_features, plot_height=350, plot_width=600, title="Most Important Features",
+           toolbar_location=None, tools="")
+
+feature_chart.hbar(y='features', right='counts', height=0.8, source=source, 
+                   color=factor_cmap('features', palette=Spectral10, factors=sorted_features))
+
+feature_chart.xgrid.grid_line_color = None
+feature_chart.yaxis.major_label_text_font_size = "12pt"
+feature_chart.axis.axis_line_color = None
+feature_chart.outline_line_color = None
+
+st.bokeh_chart(feature_chart)
