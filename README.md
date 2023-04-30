@@ -1,7 +1,7 @@
 ifohack-landers-group
 ==============================
 
-A short description of the project.
+The repo of the group Shimmer4382 for the geospatial data challenge at ifohack. 
 
 Project Organization
 ------------
