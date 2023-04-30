@@ -430,3 +430,5 @@ dependencies:
       - scooby==0.7.1
       - traittypes==0.2.1
       - xarray==2023.4.0 
+      - streamlit
+      - lightgbm= 3.3.5
