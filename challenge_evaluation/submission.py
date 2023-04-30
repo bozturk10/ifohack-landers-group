@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 
 evals_result = {}  # to record eval results for plotting
 
-df= pd.read_csv('../data/interim/nb_level_merged_all_cities_with_amenties.csv')
+df= pd.read_csv('dataset_nb_level_with_features.csv')
 df = df.fillna(0)
 # Prepare data for regression
 X = df.drop(columns=["Neighborhood_Name","City_Name","Land_Value"])
